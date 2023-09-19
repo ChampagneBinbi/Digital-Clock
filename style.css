@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://cdn0-production-images-kly.akamaized.net/gitPH8m64C1S_8uCcLXXVGCTO3I=/800x1066/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4123223/original/057435500_1660453319-286255974_590793112404744_4354069256940204617_n.jpg");
+    overflow: hidden;
+}
+
+h2{
+    color: aqua;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: blueviolet;
+    opacity: .8;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 20px;
+    text-transform: unset;
+    letter-spacing: 2px;
+    background-color: rgb(51, 20, 77);
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    font-size: 40px;
+    background: rgb(239, 232, 245);
+    color: rgb(5, 5, 5);
+}
